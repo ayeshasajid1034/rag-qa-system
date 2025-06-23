@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from preprocess import process_documents
 from embeddings import create_embeddings, build_vectorstore_index
-from ragpil import rag_query
+from rag_pipeline import rag_query
 import shutil
 
 st.title("RAG-Based Q&A System")
